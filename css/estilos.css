@@ -1,0 +1,84 @@
+/* aca van todas las fuentes */
+
+@font-face {
+    font-family: nova;
+    src: url(../Font/Proxima\ Nova\ Font.otf);
+}
+
+@font-face {
+    font-family: novabold;
+    src: url(../Font/Qatar2022Arabic-Bold.ttf);
+}
+/* aca van todas las fuentes */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.h5 {
+    font-family: nova;
+}
+
+#titulo-paginas {
+    font-family: novabold;
+    font-size: 60px;
+    color:black;
+}
+
+p {
+    color: black;
+}
+#logo-aumenta {
+    width: 80px;
+    height: 80px;
+}
+
+#li {
+    color: blue;
+    font-family: nova;
+}
+
+body {
+background-color: blue;
+}
+
+#logo-menu {
+    width: 200px;
+    height: 90px;
+}
+
+.container {
+    position: relative;
+}
+
+.fondo-beton {
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card {
+    text-align: center;
+    align-items: center;
+    font-family: nova;
+}
+
+#card {
+    border: transparent;
+    font-family: nova;
+}
+
+/* seccion info */
+
+.info {
+    color: black;
+    font-family: nova;
+    justify-content: center;
+    text-align: center;
+    background-color:transparent;
+}
