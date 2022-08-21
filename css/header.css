@@ -1,0 +1,104 @@
+/*seccion header*/
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.navbar {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(35, 46, 177, 1) 0%, rgba(37, 9, 121, 1) 0%, rgba(98, 57, 194, 1) 0%, rgba(100, 53, 170, 1) 0%, rgba(115, 52, 165, 1) 0%, rgba(34, 26, 132, 1) 0%, rgba(129, 8, 117, 1) 0%, rgba(167, 2, 155, 1) 100%, rgba(233, 106, 119, 1) 100%, rgba(162, 49, 148, 1) 100%, rgba(59, 83, 196, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    padding: 0 !important;
+}
+
+#logo {
+    height: 60px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+    text-align: center;
+    font-family: nova2;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px;
+}
+
+@media screen {
+    @media screen and (max-width: 1050px) {
+        .promo-titulo{
+            font-size: 20px;
+            text-align: center;
+            
+            
+        }
+      } 
+}
+@media screen {
+    @media screen and (max-width: 750px) {
+        .promo-titulo{
+            font-size: 10px;
+            text-align: center;
+            
+            
+        }
+      } 
+}
+
+#promo{
+    font-size: 20px;
+    margin-top: -100px;
+    text-align: center;
+    align-items: center;
+}
+
+.boton-contacto {
+    background-color: #fff;
+    text-decoration: none;
+    color: rgba(162, 49, 148, 1);
+    font-size: 40px;
+    font-family: nova;
+    justify-content: center;
+    height: 40 px;
+    width: 250px;
+    text-align: center;
+
+    border: none;
+
+}
+
+.boton-contacto:hover {
+    background-color: #98FFCC;
+    color: rgba(162, 49, 148, 1);
+}
+
+@media screen {
+    @media screen and (max-width: 750px) {
+        .boton-contacto{
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 20px; 
+            width: 200px;              
+        }
+      } 
+}
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        .boton-contacto{
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 20px; 
+            width: 150px;               
+        }
+      } 
+}

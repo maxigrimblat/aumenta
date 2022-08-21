@@ -1,0 +1,16 @@
+model-viewer {
+    width: 450px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid white;
+
+}
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        model-viewer{
+            width: 250px;
+            height: 200px;           
+        }
+      } 
+}

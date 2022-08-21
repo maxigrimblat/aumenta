@@ -1,0 +1,73 @@
+.titulo-info {
+    color: #A606AB;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: nova;
+}
+
+#colum {
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+#img-tracker {
+    height: 370px;
+}
+
+/*seccionservicios*/
+
+.servicios {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(35, 46, 177, 1) 0%, rgba(37, 9, 121, 1) 0%, rgba(98, 57, 194, 1) 0%, rgba(100, 53, 170, 1) 0%, rgba(115, 52, 165, 1) 0%, rgba(34, 26, 132, 1) 0%, rgba(129, 8, 117, 1) 0%, rgba(173, 94, 165, 1) 100%, rgba(254, 254, 254, 1) 100%, rgba(233, 106, 119, 1) 100%, rgba(162, 49, 148, 1) 100%, rgba(59, 83, 196, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    text-align: center;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    color: white;
+    font-family: nova2;
+    width: 100%;
+    font-size: 50px;
+}
+
+#texto-servicios:hover {
+    color: #98FFCC;
+
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#cards {
+    height: 150px;
+    width: 150px;
+}
+
+#card {
+    border: transparent;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card-title {
+    color: #A606AB !important;
+    font-family: nova2;
+    font-size: 20px;
+}
+
+#target-colum{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
