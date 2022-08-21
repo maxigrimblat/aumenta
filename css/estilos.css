@@ -2,12 +2,20 @@
 @import url(./moder.viewer.css);
 @import url(./header.css);
 @import url(./info.css);
+@import url(./servicios.css);
+@import url(./porquear.css);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+ 
 
 @font-face {
     font-family: nova;
@@ -45,10 +53,7 @@
 
 
 
-#video {
-    width: 100%;
-    height: 370px;
-}
+
 
 .boton-img {
     background: rgb(2, 0, 36);
@@ -56,11 +61,11 @@
     width: 100%;
 }
 
+
 /*seccion banner*/
 
 
 /*seccionInfo*/
-
 
 
 #info-sectores {
@@ -96,6 +101,10 @@
     width: 100px;
 }
 
+#col-servicios{
+    padding: 0 !important;
+}
+
 /*seccionporque ar*/
 
 #porque-ra{
@@ -112,5 +121,14 @@
 #ar-h2 {
     color: #A606AB;
     margin-top: 80px;
+}
+
+#h-ar {
+    color: black !important;
+}
+
+#tarjetas-porquear {
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 

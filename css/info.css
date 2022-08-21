@@ -1,12 +1,34 @@
+#info{
+    padding: 0;
+}
 .titulo-info {
     color: #A606AB;
-    margin-top: 50px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-top: 30px;
+    
     justify-content: center;
     text-align: center;
     font-size: 40px;
     font-family: nova;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@media screen {
+    @media screen and (max-width: 1000px) {
+        .titulo-info{
+            font-size: 30px;
+            text-align: center;      
+        }
+      } 
+}
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        .titulo-info{
+            font-size: 20px;
+            text-align: center;      
+        }
+      } 
 }
 
 #colum {
@@ -14,7 +36,10 @@
     margin-top: 50px;
 }
 
-
+#porque-ar {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 
 #img-tracker {
     height: 370px;
@@ -46,10 +71,25 @@
     padding: 0;
 }
 
-#cards {
-    height: 150px;
-    width: 150px;
+#img-services {
+    height: 250px;
+    width: 130px;
+    text-align: center;
+    align-items: center;
+
 }
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        #img-services{
+            margin-top: -30px;      
+        }
+      } 
+}
+
+
+
+
 
 #card {
     border: transparent;
@@ -68,6 +108,13 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    padding: 0 !important;
 }
 
+/**/
+#tarjeta-ar {
+    border: transparent;
+    color: #A606AB !important;
+
+}
 

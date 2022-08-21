@@ -1,0 +1,24 @@
+
+
+#img-servicios {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+
+#tarjetas-servicios{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-color: transparent;
+    margin-top: 50px;
+}
+
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        #texto-servicios{
+            font-size: 30px;   
+        }
+      } 
+}
