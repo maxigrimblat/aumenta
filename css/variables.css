@@ -56,3 +56,13 @@
     padding: 0;
 }
 
+#info-clientes{
+    text-align: center;
+    
+}
+
+.p-clientes{
+    margin-top: 10px;
+    font-family: opensanz;
+    font-size: 25px;
+}
