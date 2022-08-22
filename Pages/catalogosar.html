@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="../img/Aumenta2.png" alt="logo" id="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SERVICIOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CÁTALOGOS AR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">NOSOTROS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SOSBRE AR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" id="promo">
+                    <p class="promo-titulo">CATALOGOS EN REALIDAD AUMENTADA</p>
+                    <h1> Es momento de la transformación digital de tu empresa
+                    </h1>
+                    <button type="submit" class="boton-contacto" id="boton-contacto">
+                        Contáctanos</button>
+                </div>
+                <div class="col-md-6">
+                    <model-viewer
+                        src="https://cdn.glitch.global/bd24976a-9503-46dc-a1d6-8e2355c14a02/Lunga45cm.glb?v=1659300056021"
+                        ios-src="https://cdn.glitch.global/bd24976a-9503-46dc-a1d6-8e2355c14a02/1959f313-36b5-45c0-8b19-bc9577b8e9a3%20(1).usdz?v=1659300100586"
+                        camera-controls auto-rotate ar>
+                    </model-viewer>
+                </div>
+            </div>
+    </section>
+    <img src="../img/wave1.png" alt="fondo" class="boton-img">
+    <section id="info-sobre-catalogos">
+        <div class="container-fluid" id="contenido-catalogos">
+            <h2 class="titulos-h2">Incrementa tus ventas gracias a un catálogo de productos en realidad aumentada</h2>
+            <p class="parrafos" id="parrafo-catalogos">Un <b> catálogo de productos en realidad aumentada es un catálogo
+                    cuyos productos se visualizan en 3D</b> y en el mundo real a través de la cámara de un smartphone.
+            </p>
+            <p class="parrafos" id="parrafo-catalogos">Gracias a una fiel representación digital 3D del producto, el
+                usuario lo ve en su tamaño real. <b>La
+                    realidad aumentada le permite superponer el producto en el lugar dónde se encuentra y comprobar que
+                    sus
+                    características se alinean con lo esperado.</b> Una vez colocado, el usuario puede interactuar con
+                el
+                producto para comprobar o personalizar sus características.</p>
+            <p class="parrafos" id="parrafo-catalogos"> Este tipo de catálogo se dio a conocer con el catálogo IKEA
+                PLACE. Aunque parece pensado sobre todo para
+                mobiliario y accesorios del hogar.</p>
+            <h2 class="titulos-h2">¿Sabes cuál es la diferencia entre estos dos procesos de compra?</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4" id="columnas">
+                <div class="col">
+                    <div class="card">
+                        <img src="http://shop-ar.store/wp-content/uploads/2022/07/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Modelo Tradicional</h5>
+                            <p class="card-text">El modelo tradicional del e-commerce, miramos la foto, descripción del
+                                producto y luego la compra..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <model-viewer id="velador-ar"
+                            src="https://cdn.glitch.global/bd24976a-9503-46dc-a1d6-8e2355c14a02/mesachiquita.glb?v=1657751466585"
+                            ios-src="https://cdn.glitch.global/bd24976a-9503-46dc-a1d6-8e2355c14a02/mesachiquita.usdz?v=1657751469060"
+                            camera-controls auto-rotate ar>
+                        </model-viewer>
+                        <div class="card-body">
+                            <h5 class="card-title">Modelo AR</h5>
+                            <p class="card-text">Con AR, los clientes pueden tomar mejores decisiones de compra con
+                                confianza , lo que conduce a una mayor satisfacción y una fuerte lealtad del cliente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 id="titulos-h3">Aumente sus conversiones con AR hasta un 40 % </h3>
+            <p class="card-text" id="parrafo-catalogos">Con AR, los clientes pueden tomar mejores decisiones de compra
+                con confianza , lo que conduce a una mayor satisfacción y una fuerte lealtad del cliente.</p>
+            <p class="card-text" id="parrafo-catalogos">Después de que los consumidores hayan seleccionado qué productos
+                funcionarán para ellos, la elección de qué producto comprar es un área en la que AR puede influir
+                significativamente. Para las marcas que tienen un proceso de incorporación en persona para sus clientes,
+                el uso de AR y VR puede atraer a los clientes con imágenes vívidas de la vida real que los impulsan a
+                comprar.
+            </p>
+        </div>
+
+    </section>
+    <section id="footer">
+        <footer>
+            <img src="../img/wave2.png" alt="fondo" id="fondo">
+            <h1>todos los derechos reservados</h1>
+        </footer>
+    </section>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a1e2cb9fee.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+    </script>
+</body>
+
+</html>

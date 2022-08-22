@@ -1,0 +1,64 @@
+#contenido-catalogos {
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    padding: 0!important;
+}
+
+#parrafo-catalogos {
+    margin-top: 30px;
+    text-align: left;
+}
+
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        #parrafo-catalogos {
+            font-size: 15px;
+            margin-left: 15px;
+            margin-right: 15px;          
+        }
+    }
+}
+#tarjetas-catalogos {
+    border-color: transparent;
+    margin-top: 60px;
+    justify-items: center;
+}
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        #tarjetas-catalogos {
+            width: 208px;
+            height: 150px;                    
+        }
+    }
+}
+
+#velador-ar{
+    width: 200px;
+    height: 260px;
+}
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        ##velador-ar {
+                width: 200px;
+                height: 180px;
+            }                    
+        }
+    }
+
+    @media screen {
+        @media screen and (max-width: 1000px) {
+            #velador-ar {
+                    width: 200px;
+                    height: 180px;
+                }                    
+            }
+        }
+#columnas {
+    padding: 0!important;
+    margin: 0!important;
+}
+

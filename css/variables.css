@@ -1,0 +1,50 @@
+.titulos-h2 {
+    color:#C100B5;
+    margin-top: 30px;
+    
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: nova;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        .titulos-h2{
+            font-size: 20px;         
+        }
+      } 
+}
+
+.parrafos{
+    font-family: opensanz;
+}
+
+#titulos-h3 {
+    color: #C100B5;
+    margin-top: 30px;
+}
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        #contenido-catalogos{
+            width: 100%;
+            text-align: center; 
+            align-items: center;          
+        }
+      } 
+}
+@media screen {
+    @media screen and (max-width: 500px) {
+        .titulos-h2{
+            text-align: center; 
+            align-items: center;          
+        }
+      } 
+}
+
+#fondo {
+    background-color: #6A0075;
+}
