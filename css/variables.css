@@ -47,4 +47,6 @@
 
 #fondo {
     background-color: #6A0075;
+    width: 100%;
+    border-color: transparent;
 }
