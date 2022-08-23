@@ -61,18 +61,17 @@
 }
 
 .boton-contacto {
-    background-color:#2e2e3d;
+    background-color:white;
     text-decoration: none;
-    color: #f5f7fd;
-    font-size: 30px;
-    font-family: nova;
+    color: #2e2e3d;
+    font-size: 25px;
+    font-family: questrial;
     justify-content: center;
     height: 40 px;
-    width: 200px;
+    width: 150px;
     text-align: center;
     margin-top: 10px;
-
-    border: none;
+    border: 6px solid  #2e2e3d;;
 
 }
 
