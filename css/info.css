@@ -91,7 +91,6 @@
 
 
 
-
 #card {
     border: transparent;
     text-align: center;
@@ -100,7 +99,7 @@
 }
 
 .card-title {
-    color: #A606AB !important;
+    color:  #2e2e3d !important;
     font-family: nova2;
     font-size: 20px;
 }

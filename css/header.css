@@ -8,8 +8,7 @@
 
 
 .navbar {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(35, 46, 177, 1) 0%, rgba(37, 9, 121, 1) 0%, rgba(98, 57, 194, 1) 0%, rgba(100, 53, 170, 1) 0%, rgba(115, 52, 165, 1) 0%, rgba(34, 26, 132, 1) 0%, rgba(129, 8, 117, 1) 0%, rgba(167, 2, 155, 1) 100%, rgba(233, 106, 119, 1) 100%, rgba(162, 49, 148, 1) 100%, rgba(59, 83, 196, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background-color:white;
     padding: 0 !important;
 }
 
@@ -25,11 +24,11 @@
 }
 
 .navbar-nav li a {
-    color: #fff !important;
+    color: #2e2e3d !important;
 }
 
 .fa-bars {
-    color: #fff;
+    color:  #2e2e3d;
     font-size: 30px;
 }
 
@@ -62,15 +61,16 @@
 }
 
 .boton-contacto {
-    background-color: #fff;
+    background-color:#2e2e3d;
     text-decoration: none;
-    color: rgba(162, 49, 148, 1);
-    font-size: 40px;
+    color: #f5f7fd;
+    font-size: 30px;
     font-family: nova;
     justify-content: center;
     height: 40 px;
-    width: 250px;
+    width: 200px;
     text-align: center;
+    margin-top: 10px;
 
     border: none;
 
