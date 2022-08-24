@@ -90,12 +90,13 @@
 
 .p-clientes{
     margin-top: 10px;
-    font-family: questrial;
+    font-family: nova;
     font-size: 20px;
     color: #2e2e3d;
 }
 
 .h1-clientes {
-    font-family: nova;
+    font-family: questrial;
     color: #8a94ac;
 }
+

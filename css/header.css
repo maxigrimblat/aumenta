@@ -75,10 +75,7 @@
 
 }
 
-.boton-contacto:hover {
-    background-color: #98FFCC;
-    color: rgba(162, 49, 148, 1);
-}
+
 
 @media screen {
     @media screen and (max-width: 750px) {
