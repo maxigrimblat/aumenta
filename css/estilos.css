@@ -126,6 +126,15 @@
 }
 
 #logozamibia{
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
+}
+
+#zamibiadeco{
+    color:  #d4c4b4 !important;
+}
+
+#texto-centrado{
+    text-align: center !important;
+    color:  #d4c4b4 !important;
 }
