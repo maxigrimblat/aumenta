@@ -1,5 +1,20 @@
 /*seccion header*/
 
+#banner {
+    background-color: #7611b6 !important;
+}
+
+
+.boton-img {
+    background: #7611b6;
+    width: 100%;
+}
+
+#videoar {
+    width: 100%;
+}
+
+
 #nav-bar {
     position: sticky;
     top: 0;

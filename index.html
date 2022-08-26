@@ -10,6 +10,19 @@
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
   <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
 </head>
 
 <body>
@@ -51,24 +64,25 @@
 
   <!--Seccion banner-->
 
-  <section id="banner">
-    <div class="container">
+  <section id="banner-index">
+    <div class="container" id="banner-index">
       <div class="row">
         <div class="col-md-6" id="promo">
           <p class="promo-titulo">EXPERTOS EN REALIDAD AUMENTADA</p>
           <h1>Agencia dedicada al desarrollo de experiencias digitales
           </h1>
-          <button type="submit" class="boton-contacto" id="boton-contacto">
-            Contáctanos</button>
+          <button  class="button8-module--primary--7x3tp" type="button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contáctanos</font></font> <source src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/video.mp4?v=1661466252141"</button>
+          
         </div>
         <div class="col-md-6">
-          <model-viewer
-            src="https://cdn.glitch.global/bd24976a-9503-46dc-a1d6-8e2355c14a02/modern_table.glb?v=1657986122975"
-            ios-src="https://cdn.glitch.global/bd24976a-9503-46dc-a1d6-8e2355c14a02/tabla.usdz?v=1657986965805"
-            camera-controls auto-rotate ar>
-          </model-viewer>
+          <video ontouchend="scrollToEndOfHeaderBanner()" muted="" preload="auto" autoplay="" loop="" playsinline=""
+            autobuffer="" id="videoar">
+            <source src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/video.mp4?v=1661466252141"
+              type="video/mp4">
+          </video>
         </div>
       </div>
+    </div>
 
   </section>
   <img src="./img/wave1.png" alt="fondo" class="boton-img">
@@ -93,49 +107,57 @@
           </video>
         </div>
         <div class="card" id="card">
-          <img src="./img/image-tracking.webp" alt="imagetarget" id="img-services">
+          <video ontouchend="scrollToEndOfHeaderBanner()" muted="" preload="auto" autoplay="" loop="" playsinline=""
+            autobuffer="" id="img-services">
+            <source src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/1.mp4?v=1661467328699"
+              type="video/mp4">
+          </video>
         </div>
         <div class="card" id="card">
-          <img src="./img/face.webp" alt="facetracker" id="img-services">
+          <video ontouchend="scrollToEndOfHeaderBanner()" muted="" preload="auto" autoplay="" loop="" playsinline=""
+            autobuffer="" id="img-services">
+            <source src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/3.mp4?v=1661467339710"
+              type="video/mp4">
+          </video>
         </div>
         <div class="card" id="card">
-          <img src="./img/portales.webp" alt="facetracker" id="img-services">
-        </div>
-        <div class="card" id="card">
-          <img src="./img/world.webp" alt="facetracker" id="img-services">
+          <video ontouchend="scrollToEndOfHeaderBanner()" muted="" preload="auto" autoplay="" loop="" playsinline=""
+            autobuffer="" id="img-services">
+            <source src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/4.mp4?v=1661467351794"
+              type="video/mp4">
+          </video>
         </div>
       </div>
     </div>
   </section>
-  <section id="servicios">
-    <div class="card-group">
-      <h2 class="servicios" id="texto-servicios">SERVICIOS</h2>
-      <div class="card" id="tarjetas-servicios">
-        <img src="./img/filtros/filtro.png" class="card-img-top" alt="filtros" id="img-servicios">
-        <div class="card-body">
-          <h5 class="card-title">Filtros</h5>
-          <p class="card-text">A través de SparkAR creamos experiencias, juegos y demos de productos para Instagram y
-            Facebook.</p>
-        </div>
-      </div>
-      <div class="card" id="tarjetas-servicios">
-        <img src="./img/filtros/realidad aumeanda.png" class="card-img-top" alt="realidad aumentada" id="img-servicios">
-        <div class="card-body">
-          <h5 class="card-title">Realidad Aumentada</h5>
-          <p class="card-text">Complementamos la realidad con elementos digitales que se visualizan a través de la
-            cámara de dispositivos móviles.
-          </p>
-        </div>
-      </div>
-      <div class="card" id="tarjetas-servicios">
-        <img src="img/filtros/webarweb.png" class="card-img-top" alt="webar" id="img-servicios">
-        <div class="card-body">
-          <h5 class="card-title">Experiencias Web 3D</h5>
-          <p class="card-text">Creamos sitios web con contenido interactivo 3D para visualizar productos, espacios
-            arquitectónicos, videojuegos, capacitaciones y mucho más.</p>
-        </div>
+  <div class="card-group">
+    <h2 class="servicios" id="texto-servicios">SERVICIOS</h2>
+    <div class="card" id="tarjetas-servicios">
+      <img src="./img/filtros/filtro.png" class="card-img-top" alt="filtros" id="img-servicios">
+      <div class="card-body">
+        <h5 class="card-title">Filtros</h5>
+        <p class="card-text">A través de SparkAR creamos experiencias, juegos y demos de productos para Instagram y
+          Facebook.</p>
       </div>
     </div>
+    <div class="card" id="tarjetas-servicios">
+      <img src="./img/filtros/realidad aumeanda.png" class="card-img-top" alt="realidad aumentada" id="img-servicios">
+      <div class="card-body">
+        <h5 class="card-title">Realidad Aumentada</h5>
+        <p class="card-text">Complementamos la realidad con elementos digitales que se visualizan a través de la
+          cámara de dispositivos móviles.
+        </p>
+      </div>
+    </div>
+    <div class="card" id="tarjetas-servicios">
+      <img src="img/filtros/webarweb.png" class="card-img-top" alt="webar" id="img-servicios">
+      <div class="card-body">
+        <h5 class="card-title">Experiencias Web 3D</h5>
+        <p class="card-text">Creamos sitios web con contenido interactivo 3D para visualizar productos, espacios
+          arquitectónicos, videojuegos, capacitaciones y mucho más.</p>
+      </div>
+    </div>
+  </div>
   </section>
   <section id="sectores-impactos">
     <div class="container" id="info-sectores">
@@ -155,7 +177,7 @@
       </div>
       <div class="col">
         <div class="card h-100" id="card-impacto">
-          <img src="./img/filtros/logos/Retail.png" class="card-img-top" alt="marketing" id="img-sectores">
+          <img src=".//img/filtros/logos/Retail.png" class="card-img-top" alt="marketing" id="img-sectores">
           <div class="card-body">
             <h5 id="h-sectores" class="card-title">Retail</h5>
             <p class="card-text">Muestra tus productos en 3D y permite a tus usuarios verlos en su espacio en realidad
@@ -248,17 +270,32 @@
   <footer>
     <h1>todos los derechos reservados</h1>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/a1e2cb9fee.js" crossorigin="anonymous"></script>
-  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 15,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
   </script>
 </body>
 

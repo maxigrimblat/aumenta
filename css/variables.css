@@ -1,3 +1,9 @@
+b{
+    color:black;
+    font-family: nova2;
+    font-size: 20px;
+}
+
 .titulos-h2 {
     color:#C100B5;
     margin-top: 30px;
@@ -58,25 +64,22 @@
 /*seccion banner*/
 
 #banner {
-    background-color: #fff;
+    background-color: #fff !important;
     color: #fff;
     padding-top: 5%;
 }
+
+#banner-index {
+    background-color: #7611b6 !important;
+    color: #fff;
+    padding-top: 5%;
+}
+
 
 .promo-titulo {
     font-size: 25px;
     font-weight: 600;
     margin-top: 100px;
-}
-
-
-
-
-
-.boton-img {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(35, 46, 177, 1) 0%, rgba(37, 9, 121, 1) 0%, rgba(98, 57, 194, 1) 0%, rgba(100, 53, 170, 1) 0%, rgba(115, 52, 165, 1) 0%, rgba(34, 26, 132, 1) 0%, rgba(129, 8, 117, 1) 0%, rgba(167, 2, 155, 1) 100%, rgba(233, 106, 119, 1) 100%, rgba(162, 49, 148, 1) 100%, rgba(59, 83, 196, 1) 100%, rgba(0, 212, 255, 1) 100%);
-    width: 100%;
 }
 
 
@@ -100,3 +103,16 @@
     color: #8a94ac;
 }
 
+.button8-module--primary--7x3tp {
+    border-radius: 5rem;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin: 4px;
+    color: #fff!important;
+    background: linear-gradient(135deg,#7611b6,50%,#c86dd7);  
+}

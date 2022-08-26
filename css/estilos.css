@@ -20,8 +20,8 @@
  
 
 @font-face {
-    font-family: nova;
-    src: url(../Font/NOVA-BOLD.otf);
+    font-family: noto;
+    src: url(../Font/noto/NotoSansJP-Bold.otf);
 }
 
 @font-face {
