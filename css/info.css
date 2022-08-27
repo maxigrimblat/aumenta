@@ -48,9 +48,9 @@
 /*seccionservicios*/
 
 .servicios {
-    background: linear-gradient(135deg,#7611b6,50%,#c86dd7);
+    background-color: #7611b6;
     text-align: center;
-    height: 100px;
+    height: 150px;
     justify-content: center;
     align-items: center;
     display: flex;

@@ -4,8 +4,25 @@ b{
     font-size: 20px;
 }
 
+#h1-enpaginas {
+    font-family: noto3;
+}
+#h2-enpaginas {
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    font-family: noto2;
+}
+
+#h2-nosotros {
+    font-family: noto3;
+    color: #A606AB;
+    text-align: center;
+    font-size: 33px;
+    padding: 40px;
+}
 .titulos-h2 {
-    color:#C100B5;
+    color: #A606AB !important;
     margin-top: 30px;
     
     justify-content: center;
@@ -29,7 +46,7 @@ b{
 }
 
 #titulos-h3 {
-    color: #C100B5;
+    color: #A606AB !important;
     margin-top: 30px;
 }
 
@@ -115,4 +132,141 @@ b{
     margin: 4px;
     color: #fff!important;
     background: linear-gradient(135deg,#7611b6,50%,#c86dd7);  
+}
+
+
+/* ESTILOS PORQUE AR*/
+
+#impacto {
+    background-color: #7611b6;
+}
+
+.h2-participacion {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: noto;
+    
+}
+#img-promedio {
+    min-width: 300px;
+}
+ #p-promedio {
+    font-family: nora;
+    font-size: 20px;
+    margin-top: 50px;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ @media screen {
+    @media screen and (max-width: 500px) {
+        .h2-participacion{
+            text-align: center;
+                   
+        }
+      } 
+}
+@media screen {
+    @media screen and (max-width: 500px) {
+        #p-promedio{
+            text-align: center;
+            font-size: 15px;
+            width: 320px;
+                   
+        }
+      } 
+}
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        #img-promedio{
+            width: 100%;
+        }
+      } 
+}
+@media screen {
+    @media screen and (max-width: 1000px) {
+        #img-promedio{
+            width: 100%;
+        }
+      } 
+}
+
+
+/* ESTILOS PORQUE AR*/
+
+#titulos-servicios {
+    color: #A606AB !important;
+    font-family: noto;
+}
+
+/* Pagina nosotros*/
+
+
+#img-nosotros {
+    justify-content: center;
+    text-align: center;
+    margin-top: -50px;
+}
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        #img-nosotros{
+            width: 150px;
+            height: 180px;
+            margin-left: 50px;
+            margin-top: 3px;
+            
+        }
+      } 
+}
+#p-nosotros{
+    text-align: center;
+}
+
+#contenedor-nosotros{
+    justify-content: center;
+    
+    font-family: noto2;
+   
+}
+#sobre-nosotros{
+    height: 400px;
+}
+
+#img-diseñadores {
+    width: 150px;
+    height: 150px;
+    
+}
+
+#columnas-centradas{
+    padding: 0!important;
+    margin: 0!important;
+    text-align: center;
+}
+#nosotros-banner {
+    width: 100%;
+    background-color: #7611b6;
+    color: #fff;
+    height: 400px;
+    margin-top: 40px;
+}
+
+@media screen {
+    @media screen and (max-width: 500px) {
+        #nosotros-banner{          
+            height: 750px;                      
+        }
+      } 
+}
+
+#h2-equipo {
+    font-family: noto3;
+    color: white;
+    text-align: center;
+    font-size: 33px;
+    padding: 40px;
 }

@@ -24,6 +24,18 @@
     src: url(../Font/noto/NotoSansJP-Bold.otf);
 }
 
+
+@font-face {
+    font-family: noto3;
+    src: url(../Font/noto/NotoSansJP-Black.otf)
+}
+
+@font-face {
+    font-family: noto2;
+    src: url(../Font/noto/NotoSansJP-Light.otf)
+}
+
+
 @font-face {
     font-family: nova2;
     src: url(../Font/Proxima\ Nova\ Font.otf);
