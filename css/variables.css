@@ -150,6 +150,9 @@ b{
     background:#2d2e43;  
 }
 
+#ar-button {
+    background-color:#2d2e43; border-radius: 4px; border: none; position: absolute; top: 16px; left: 10px;
+}
 /* ESTILOS PORQUE AR*/
 
 #impacto {
