@@ -34,14 +34,22 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">CÁTALOGOS AR</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item dropdown">                              
                                 <a class="nav-link" href="#">NOSOTROS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">SOSBRE AR</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACTO</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    CONTACTO
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="./ancorahierro.html">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
@@ -53,19 +61,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6" id="info-clientes">
-                    <img src="/img/logos/cebala.png" alt="logocebala" id="logocebala">
-                    <p class="p-clientes"><b>De Uruguay al mundo</b> </p>
-                    <h1 id="zamibiadeco" class="h1-clientes">@cebalauy
+                    <img src="/img/logos/rp lamparas.jpg" alt="rplamparas" id="logosantorini">
+                    <p class="p-clientes"><b>Los elegidos del mes</b> </p>
+                    <h1 id="zamibiadeco" class="h1-clientes">@rp_lamparas
                     </h1>
-                    <a href="https://www.cebala.com/es/"
+                    <a href="https://www.instagram.com/rp_lamparas/?hl=es"
                         a8="click;discover;click-industry-carousel-explore-all"><button class="botones-paginas"
                             type="button">Contáctanos</button></a>
                 </div>
                 <div class="col-md-6">
                     <model-viewer
-                        src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/matera1.glb?v=1661283983890"
-                        ios-src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/matera1.usdz?v=1661283988065"
+                        src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/Tripode.glb?v=1656695177759"
+                        ios-src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/Tripode.usdz?v=1656695182217"
                         camera-controls auto-rotate ar>
+                        <button slot="ar-button" id="ar-button">
+                            👋 Activar AR
+                        </button>
                     </model-viewer>
                 </div>
             </div>
@@ -73,46 +84,37 @@
     </section>
 
     <section class="productos" id="card-gruop">
-        <div class="row row-cols-1 row-cols-md-3 g-4 " id="card-gruop">
-            <div class="card h-100">
-                <model-viewer
-                    src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/matera3.glb?v=1661283968139"
-                    ios-src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/matera3.usdz?v=1661283971097"
-                    camera-controls auto-rotate ar>
-                    <button slot="ar-button" id="ar-button">
-                        👋 Activar AR
-                    </button>
-                </model-viewer>
-                <div class="card-body">
-                    <h5 id="texto-centrado" class="card-title">Mochila matera</h5>
+        <div class="row row-cols-1 row-cols-md-2 g-4 " id="card-gruop">
+            <div class="col" id="card-productos">
+                <div class="card h-100">
+                    <model-viewer
+                        src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/Estructural.glb?v=1656693663608"
+                        ios-src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/Estructural.usdz?v=1656693666838"
+                        camera-controls auto-rotate ar>
+                        <button slot="ar-button" id="ar-button">
+                            👋 Activar AR
+                        </button>
+                    </model-viewer>
+                    <div class="card-body">
+                        <h5 id="texto-centrado" class="card-title">RP Estructural</h5>
+                    </div>
                 </div>
             </div>
-            <div class="card h-100">
-                <model-viewer
-                src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/matera2.glb?v=1661283975575"
-                ios-src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/matera2.usdz?v=1661283979691"
-                    camera-controls auto-rotate ar>
-                    <button slot="ar-button" id="ar-button">
-                        👋 Activar AR
-                    </button>
-                </model-viewer>
-                <div class="card-body">
-                    <h5 id="texto-centrado" class="card-title">Matera cuero crudo</h5>
+            <div class="col" id="card-productos">
+                <div class="card h-100">
+                    <model-viewer
+                        src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/Tripode.glb?v=1656695177759"
+                        ios-src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/Tripode.usdz?v=1656695182217"
+                        camera-controls auto-rotate ar>
+                        <button slot="ar-button" id="ar-button">
+                            👋 Activar AR
+                        </button>
+                    </model-viewer>
+                    <div class="card-body">
+                        <h5 id="texto-centrado" class="card-title">RP Tripode</h5>
+                    </div>
                 </div>
             </div>
-            <div class="card h-100">
-                <model-viewer
-                src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/matera1.glb?v=1661283983890"
-                ios-src="https://cdn.glitch.global/9798d9ca-bdd6-4c76-9d8c-22fe96272ae1/matera1.usdz?v=1661283988065"
-                    camera-controls auto-rotate ar>
-                    <button slot="ar-button" id="ar-button">
-                        👋 Activar AR
-                    </button>
-                </model-viewer>
-                <div class="card-body">
-                    <h5 id="texto-centrado" class="card-title">Matera Pampita Stanley</h5>
-                </div>
-            </div>       
         </div>
     </section>
 
