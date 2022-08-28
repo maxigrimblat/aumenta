@@ -120,6 +120,7 @@ b{
     color: #8a94ac;
 }
 
+/* Botones*/
 .button8-module--primary--7x3tp {
     border-radius: 5rem;
     border: none;
@@ -134,6 +135,20 @@ b{
     background: linear-gradient(135deg,#7611b6,50%,#c86dd7);  
 }
 
+
+.botones-paginas {
+    border-radius: 5rem;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin: 4px;
+    color: #d4c4b4 !important;
+    background:#2d2e43;  
+}
 
 /* ESTILOS PORQUE AR*/
 
