@@ -165,7 +165,7 @@ b{
     border-radius: 4px; 
     border: none; 
     position: absolute; 
-    top: 16px; right: 2px;
+    top: 16px; right: 8px;
     color: white;
 }
 /* ESTILOS PORQUE AR*/
@@ -382,4 +382,13 @@ b{
 #submit{
     background-color: #2d2e43;
     color: white;
+}
+
+@media screen {
+    @media screen and (max-width: 600px) {
+        #videoyoutube{
+            width: 350px!important;
+            
+        }
+      } 
 }
