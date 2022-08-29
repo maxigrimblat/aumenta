@@ -1,3 +1,13 @@
+#nav-bar-index{
+   background:#7611b6 !important;
+   color: white;
+}
+
+#nav-link{
+    color: white!important;
+    font-family: noto2;
+}
+
 b{
     color:black;
     font-family: nova2;
@@ -357,4 +367,18 @@ b{
 #columnas-realidad {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+#contenedor-formulario{
+    margin-bottom: 100px;
+}
+
+#mensaje_contacto{
+    background-color:white;
+    margin-right: 40px;
+}
+
+#submit{
+    background-color: #2d2e43;
+    color: white;
 }
