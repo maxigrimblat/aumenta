@@ -165,7 +165,8 @@ b{
     border-radius: 4px; 
     border: none; 
     position: absolute; 
-    top: 16px; left: -10px;
+    top: 16px; right: 2px;
+    color: white;
 }
 /* ESTILOS PORQUE AR*/
 
